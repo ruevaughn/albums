@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactNative from 'react-native';
+import { Text, AppRegistry } from 'react-native';
 
 const App = () => {
   return (
@@ -7,4 +7,4 @@ const App = () => {
   );
 };
 
-ReactNative.AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent('albums', () => App);
