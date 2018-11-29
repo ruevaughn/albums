@@ -6,3 +6,5 @@ const App = () => {
     <Text>Some Text</Text>
   );
 };
+
+ReactNative.AppRegistry.registerComponent('albums', () => App);
