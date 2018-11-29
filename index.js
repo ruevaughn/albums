@@ -5,4 +5,4 @@ const App = () => (
   <Text>Some Text</Text>
 );
 
-AppRegistry.registerComponent('albums', () => App);
+AppRegistry.registerComponent('udemyalbums', () => App);
