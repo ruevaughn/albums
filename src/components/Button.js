@@ -2,10 +2,12 @@ import React from 'react';
 import { Text, TouchableOpacity } from 'react-native'
 // TouchableOpacity - Treated like it's a View tag
 
-const Button = () => {
+const Button = ({ onPress }) => {
   const { buttonStyle, textStyle } = styles;
   return (
-    <TouchableOpacity style={buttonStyle}>
+    <TouchableOpacity
+      onPress={onPress}
+      style={buttonStyle}>
       <Text style={textStyle}>Click me!!!</Text>
     </TouchableOpacity>
   );
